@@ -3,10 +3,16 @@ Group Project Buuuiiiild
 Rules
 1. Be respectful // Help one another grow
 2. Be patient
+
+
 Minimum Viable Product
 Food Tinder
   - Open Table API: https://opentable.herokuapp.com/
+  - Official OpenTable API https://dev.opentable.com/
   - Faker Gem
+
+Questions from last week
+
 
   Models
   - User
