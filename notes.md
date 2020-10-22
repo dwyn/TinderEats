@@ -1,5 +1,11 @@
 Group Project Buuuiiiild
 
+Agenda
+  - Talk about installation
+  - Gems installed
+  - Make teams
+  
+
 Rules
 1. Be respectful // Help one another grow
 2. Be patient
@@ -79,55 +85,9 @@ Questions from last week
       - nationality       --> string
       TBD based on OpenTable API
 
-  
-
-
-
-
 Stretch Goals
 Book a reservation
 We need comments for reviews (new table / model)
-
-
-
-
-
-
-Project Planner
-Social Media App for Flatiron Students incorporating Spotify
- - Must login with github
- - can friend other users
- - can see users spotify playlists
-
-
-Must Haves
-1. Rspec tests
-2. Style (Bootstrap)
-3. Deploy to server (Heroku or Digital Ocean)
-4. At least 4 models
-5. Nested Forms
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -155,3 +115,10 @@ Confirm:
 - [ ] Limited logic in controllers
 - [ ] Views use helper methods if appropriate
 - [ ] Views use partials if appropriate
+
+
+Project Planner
+Social Media App for Flatiron Students incorporating Spotify
+ - Must login with github
+ - can friend other users
+ - can see users spotify playlists

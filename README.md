@@ -22,3 +22,17 @@ gem install bundler
 gem install pry
 ```
 
+5. run:
+```sh
+brew install postgres
+```
+
+6. run:
+```sh
+brew services start postgresql
+```
+
+7. run:
+```sh
+gem install pg
+```
