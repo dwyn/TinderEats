@@ -1,9 +1,55 @@
 Group Project Buuuiiiild
-
+** We will probably use this api: https://opentable.herokuapp.com/
 Agenda
-  - Talk about installation
-  - Gems installed
+  - Talk about installation ✔
+  - Gems installed ✔
   - Make teams
+model
+Benny
+Mark
+Dwayne
+
+controller
+Cara
+Zeshan
+Terry
+
+views
+Carrie
+Raul
+Ashley
+
+
+
+
+Model 
+ must make
+ reviews
+ restaurants
+ contacts
+ cuisine
+ location
+
+Controller
+for now, just make all crud actions available in controller
+ reviews
+ restaurants
+ contacts
+ cuisine
+ location
+
+Views
+Can you read simple form docs and make necessary forms
+show, index, 
+edit / new form for reviews, contacts, location????
+
+
+
+
+
+RSpec
+
+Design
   
 
 Rules
