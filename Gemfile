@@ -8,8 +8,6 @@ ruby '2.7.2'
 gem 'devise'
 gem 'cancancan'
 gem 'activeadmin'
-gem 'devise'
-gem 'cancancan'
 gem 'simple_form'
 # <-- Added Gems End  -->
 
