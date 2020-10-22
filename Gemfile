@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.2'
 
+Hey there just trying something out
+
 # <-- Added Gems Start -->
 # I would like to use Material UI -- is there a gem?
 gem 'devise'
