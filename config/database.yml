@@ -22,8 +22,15 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
-  <<: *default
-  database: TinderEats_development
+  #<<: *default
+   adapter: postgresql
+   encoding: unicode
+   database: TinderEats_development
+   username: 'rubyuser'
+   password: 'rubyuser'
+   pool: 5
+   timeout: 5000
+   host: localhost
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -56,8 +63,15 @@ development:
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
-  <<: *default
-  database: TinderEats_test
+  #<<: *default
+   adapter: postgresql
+   encoding: unicode
+   database: TinderEats_test
+   username: 'rubyuser'
+   password: 'rubyuser'
+   pool: 5
+   timeout: 5000
+   host: localhost
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -79,7 +93,12 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: TinderEats_production
-  username: TinderEats
-  password: <%= ENV['TINDEREATS_DATABASE_PASSWORD'] %>
+  #<<: *default
+   adapter: postgresql
+   encoding: unicode
+   database: TinderEats_production
+   username: 'rubyuser'
+   password: 'rubyuser'
+   pool: 5
+   timeout: 5000
+   host: localhost
