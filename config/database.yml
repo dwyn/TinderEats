@@ -26,8 +26,8 @@ development:
    adapter: postgresql
    encoding: unicode
    database: TinderEats_development
-   username: 'rubyuser'
-   password: 'rubyuser'
+  #  username: 'rubyuser'
+  #  password: 'rubyuser'
    pool: 5
    timeout: 5000
    host: localhost
@@ -67,8 +67,8 @@ test:
    adapter: postgresql
    encoding: unicode
    database: TinderEats_test
-   username: 'rubyuser'
-   password: 'rubyuser'
+  #  username: 'rubyuser'
+  #  password: 'rubyuser'
    pool: 5
    timeout: 5000
    host: localhost
@@ -97,8 +97,8 @@ production:
    adapter: postgresql
    encoding: unicode
    database: TinderEats_production
-   username: 'rubyuser'
-   password: 'rubyuser'
+  #  username: 'rubyuser'
+  #  password: 'rubyuser'
    pool: 5
    timeout: 5000
    host: localhost
