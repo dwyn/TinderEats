@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   resources :restaurants do
     resources :contacts
   end
+  
+  resources :users 
 
   # resources :users do
   #   resources :reviews
