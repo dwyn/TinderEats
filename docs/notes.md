@@ -93,6 +93,11 @@ Questions from last week
     - restaurant_id  --> int
     - description    --> string
 
+  - FavoritedRestaurant?
+    belongs_to :user
+    belongs_to :cuisine
+    has_many :restaurants
+
   - Restaurant
     has_many :reviews
     has_many :users, through: :reviews
